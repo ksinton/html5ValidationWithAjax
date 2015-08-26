@@ -1,0 +1,30 @@
+	FORM {
+		margin-top:15px;
+		max-width:700px;
+		}
+	
+	.thanYouScreen {
+		display:none;
+	}
+	
+	@media screen and (min-width: 730px) {
+    	BODY .container {
+        	 position:relative;
+        	 left:50%;
+        	 margin-left:-365px;
+    	}
+	}
+	
+	.reset.btn, .submit.btn {
+		float:right;
+	}
+	
+	.submit.btn {
+		font-weight:bold;
+		margin-left:5px;
+	} 
+	
+	#thankYouMessageCont {
+		margin-top:20px;
+		margin-bottom:20px;
+	}
